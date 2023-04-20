@@ -22,3 +22,6 @@ class Phones(models.Model):
     def __str__(self):
         return self.title
 
+    class Meta:
+        verbose_name = 'Телефон'
+        verbose_name_plural = 'Телефоны'
